@@ -9,3 +9,7 @@ AAA="""
 script = marshal.loads(base64.b64decode(script))
 script = FunctionType(script, globals={'__builtins__': __builtins__})
 script()
+```
+
+**Usage**:
+./simple_python_obfuscator.py input.py output.py

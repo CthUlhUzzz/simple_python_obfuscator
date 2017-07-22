@@ -1,7 +1,8 @@
 Compile script in bytecode and run without `exec` call
 
 Output example for `Hello, world!` program:
-```import marshal, base64
+```
+import marshal, base64
 from types import FunctionType
 script = """4wAAAAAAAAAAAAAAAAIAAABAAAAAcwwAAABlAGQAgwEBAGQBUwApAnoNSG
 VsbG8sIHdvcmxkIU4pAdoFcHJpbnSpAHICAAAAcgIAAADaCDxtb2R1bGU+2gABAAAA8wAA

@@ -8,4 +8,4 @@ VsbG8sIHdvcmxkIU4pAdoFcHJpbnSpAHICAAAAcgIAAADaCDxtb2R1bGU+2gABAAAA8wAA
 AAA="""
 script = marshal.loads(base64.b64decode(script))
 script = FunctionType(script, globals={'__builtins__': __builtins__})
-script()```
+script()
